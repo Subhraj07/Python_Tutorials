@@ -34,7 +34,7 @@ if __name__ == '__main__':
     +----+------+     +----+------+     +----+------+ 
     '''
 
-    llist.head.next = second; # Link first node with second
+    llist.head.next = second # Link first node with second
     ''' 
     Now next of first Node refers to second.  So they 
     both are linked. 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     +----+------+     +----+------+     +----+------+  
     '''
 
-    second.next = third; # Link second node with the third node
+    second.next = third # Link second node with the third node
 
     ''' 
     Now next of second Node refers to third.  So all three 
